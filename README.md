@@ -327,7 +327,7 @@ pip install -r requirements.txt
 5. Refer to the Jupyter notebooks or Python scripts for detailed implementation and analysis steps.
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
+- [Sanchaita Biswas](https://github.com/your-username)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
