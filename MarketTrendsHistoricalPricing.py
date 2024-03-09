@@ -14,14 +14,14 @@ data['YearBuilt'] = pd.to_datetime(data['YearBuilt'])
 average_price_per_year = data.groupby(data['YearBuilt'].dt.year)['SalePrice'].mean()
 
 # # Plot the historical pricing trends over time
-# plt.figure(figsize=(12, 6))
-# sns.lineplot(x=average_price_per_year.index, y=average_price_per_year.values)
-# plt.title('Historical Pricing Trends Over Time')
-# plt.xlabel('Year')
-# plt.ylabel('Average Sale Price')
-# plt.xticks(rotation=45)
-# plt.grid(True)
-# plt.show()
+plt.figure(figsize=(12, 6))
+sns.lineplot(x=average_price_per_year.index, y=average_price_per_year.values)
+plt.title('Historical Pricing Trends Over Time')
+plt.xlabel('Year')
+plt.ylabel('Average Sale Price')
+plt.xticks(rotation=45)
+plt.grid(True)
+plt.show()
 
 
 
